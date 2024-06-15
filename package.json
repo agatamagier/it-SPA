@@ -1,0 +1,23 @@
+{
+  "name": "it-spa",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start:db": "json-server --watch database.json",
+    "start:app": "parcel ./index.html --open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "json-server": "^0.17.4",
+    "parcel-bundler": "^1.12.5"
+  },
+  "dependencies": {
+    "assets": "^3.0.1",
+    "bootstrap": "^4.4.1",
+    "jquery": "^3.4.1",
+    "src": "^1.1.2"
+  }
+}
